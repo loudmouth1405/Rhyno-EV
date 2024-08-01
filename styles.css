@@ -214,7 +214,7 @@ nav .social-icons a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto; /* Updated to auto */
+    height: auto;
     overflow: hidden;
     opacity: 0;
     transition: opacity 1s ease;
@@ -540,12 +540,12 @@ footer {
     /* Carousel Styles on Mobile */
     .carousel {
         width: 90%;
-        padding: 1rem; /* Adjust padding for smaller screens */
+        padding: 1rem; 
     }
 
     .carousel-item {
-        height: auto; /* Allow items to grow based on content */
-        padding: 1rem; /* Adjust padding for smaller screens */
+        height: auto;
+        padding: 1rem;
     }
 
     .carousel-image {
