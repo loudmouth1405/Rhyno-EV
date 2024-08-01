@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhyno EV | Buy</title>
+    <link rel="icon" type="image/x-icon" href="./assets/Group 83 1.png">
+    <link rel="stylesheet" href="buy.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./assets/Copy of Copy of Copy of Copy of Copy of Logo with imagine initiate inspire.png" alt="Rhyno Logo" class="rhyno-logo">
+            <div class="menu-toggle">&#9776;</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#">Products</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="se03-lite.html">SE03 Lite</a></li>
+                        <li><a href="se03.html">SE03</a></li>
+                        <li><a href="se03-max.html">SE03 Max</a></li>
+                        <li><a href="compare-all.html">Compare All</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/rhyno_ev" target="_blank"><i class="fa-brands fa-instagram" id="instagram-icon"></i></a>
+                <a href="https://www.linkedin.com/company/rhyno_ev" target="_blank"><i class="fa-brands fa-linkedin" id="linkedin-icon"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Pre-book Your Rhyno EV Now</h1>
+        <form id="prebook-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="product">Select Product:</label>
+            <select id="product" name="product" required>
+                <option value="se03-lite">SE03 Lite</option>
+                <option value="se03">SE03</option>
+                <option value="se03-max">SE03 Max</option>
+            </select>
+            
+            <button type="submit">Pre-book Now</button>
+        </form>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="refund-policy.html">Refund Policy</a></li>
+                <li><a href="website-policy.html">Website Policy</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="https://www.linkedin.com/company/rhyno_ev" target="_blank">Career</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/rhyno_ev" target="_blank"><i class="fa-brands fa-instagram" id="footer-instagram-icon"></i></a>
+            <a href="https://www.linkedin.com/company/rhyno_ev" target="_blank"><i class="fa-brands fa-linkedin" id="footer-linkedin-icon"></i></a>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
